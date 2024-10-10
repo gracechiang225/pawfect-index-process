@@ -1,0 +1,32 @@
+@import "./utils/variables";
+
+.order-summary {
+    background-color: $primary-400;
+    font-family: 'Noto Sans TC', sans-serif;
+} 
+
+.card {
+    border-radius: 24px;
+    background-color: $light;
+    border: none;
+}
+
+.card-title {
+    color: $gray-200;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.card-text {
+    color: $gray-300;
+    font-size: 16px;
+}
+
+/* 手機端調整 */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px; 
+    }
+}
+
+<!-- 右側付款選項由其他夥伴協助 -->

@@ -1,0 +1,26 @@
+.bg-gradient-primary {
+    background: linear-gradient(123.31deg, #f6844d 0%, #ffab82 100%);
+  }
+  .bg-gradient-secondary {
+    background: linear-gradient(123.31deg, #a9bd7e 0%, #c7d6a5 100%);
+  }
+  
+  .bg-gradient-thirdly {
+    background: linear-gradient(123.31deg, #86a9c2 0%, #adc9db 100%);
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  .icon-unfilled {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
