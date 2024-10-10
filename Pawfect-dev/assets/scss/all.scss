@@ -16,3 +16,9 @@
 
 @import './pages/index.scss';
 @import "./vendor/swiper";
+
+@import "./utils/variables";
+
+// 導入頁面樣式
+@import "./pages/index";
+@import "./pages/payment";

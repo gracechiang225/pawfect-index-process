@@ -1,4 +1,5 @@
-@import "./utils/variables";
+// 導入需要的樣式
+@import "../utils/variables";
 
 .order-summary {
     background-color: $primary-400;
@@ -22,6 +23,10 @@
     font-size: 16px;
 }
 
+.custom-title {
+    margin-bottom: 72px;
+  }
+  
 /* 手機端調整 */
 @media (max-width: 768px) {
     .card {
@@ -29,4 +34,5 @@
     }
 }
 
-<!-- 右側付款選項由其他夥伴協助 -->
+// 右側付款選項由其他夥伴協助
+
