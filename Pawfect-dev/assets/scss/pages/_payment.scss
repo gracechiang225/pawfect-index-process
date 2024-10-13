@@ -1,13 +1,10 @@
-// 導入需要的樣式
-@import "../utils/variables";
 
 .order-summary {
-    background-color: $primary-400;
-    font-family: 'Noto Sans TC', sans-serif;
+    background: linear-gradient(90deg, #FFF7F0 0%, #FFFFFF 50%, #FFF7F0 100%);
 } 
 
 .card {
-    border-radius: 24px;
+    border-radius: 1.5rem;/* 24px */
     background-color: $light;
     border: none;
 }
@@ -33,6 +30,3 @@
         margin-bottom: 20px; 
     }
 }
-
-// 右側付款選項由其他夥伴協助
-
